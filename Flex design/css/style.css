@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%
+}
+
+header{
+    width: 800px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.top-header{
+    padding: 15px 0;
+    overflow: hidden;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    max-width: 20%;
+    flex-basis: 20%;
+}
+.logo img{padding-top: 5px;}
+
+nav{
+    max-width: 60%;
+    flex-basis: 60%;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav ul li{
+    max-width: 60%;
+    flex-basis: 20%;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    display: block;
+    color: #48465A;
+    letter-spacing: 1px;
+    padding: 15px;
+}
+nav ul li a:hover{
+    color: #FF6162;
+}
+
+.btn{
+    max-width: 20%;
+    flex-basis: 20%;
+}
+.btn-coustom{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn-coustom a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    display: block;
+    color: #fff;
+    background: #FF6162;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+.btn-coustom a:hover{
+    background: #424055;
+    color: ##FF6162;
+}
+
+.header-section{
+    padding: 100px 0;
+}
+
+.header-part{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+
+h1{
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+p{
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+
+.img-warp{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.img-section{
+    padding: 0 20px;
+    padding-right: 0;
+}
+.img img{}
+
+.demo-section{padding: 70px 80px;}
+.demo{
+    text-align: center;
+}
+.demo p{
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 25px;
+    width: 600px;
+    margin: auto;
+}
+h2{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.demo-img{
+    display: flex;
+}
+.img-part{}
+.img-part .img-section{}
+
+h3{
+    text-align: center;
+    font-size: 22px;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+.feature{
+    text-align: center;
+}
+.article-part{
+    display: flex;
+}
+.article{
+    background: #F5F5F5;
+    padding: 25px 10px;
+    margin: 5px 5px;
+    text-align: center;
+}
+.article a{
+    font-size: 30px;
+}
+h4{
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+h5{
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.article-part2{
+    display: flex;
+}
+
+.footer-part{
+    background: #292640;
+    text-align: center;
+}
+
+.footer-content{
+    width: 530px;
+    margin: auto;
+    padding: 60px 0;
+}
+
+h6{
+    font-size: 45px;
+    color: #fff;
+}
+
+.img{
+}
+
+.footer-btn{}
+.footer-btn-coustom{
+    padding: 40px;
+}
+.footer-btn-coustom a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #fff;
+    background: #FF6162;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+.footer-btn-coustom a:hover{
+    background: #424055;
+    color: ##FF6162;
+}
